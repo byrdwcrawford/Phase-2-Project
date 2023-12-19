@@ -29,22 +29,22 @@ We have over 100 years of film data from multiple datasets.  To get started, we 
 ## Initial EDA
 Loading the datasets as individual df's to clean and prepare columns for analysis.  Once we determine which columns we will use, they can then be joined together for analysis.  It's important that we do this now, so we don't run into issues performin regression analysis and creatong visuals.
 
+
 ## Data Analysis
 We will analyze this data in a variety of ways to best understand it.  Charts, graphs, and regression analysis will help us interpret the data and project future trends.
 A correlation heatmap can show us the strength of correlations between different variables in our dataframe.  We can see links between budget, profit, gross, ROI.
-![Correlation Heat Map]
-(Images/Correlation Heat Map.png)
+![Correlation Heat Map](Images/Correlation Heat Map.png)
 In comparing ROI and Budget, we can see that movies that had a larger budget typically had solid returns as well. 
-![Genre ROI vs Budget]
+![Genre ROI vs Budget](Images/Genre ROI vs Budget.png)
 Now we can infer that higher budgets lead to more profit, which substantiates what we saw in the previous images. 
-![Profit by Genre]
+![Profit by Genre](Images/Profit by Genre.png)
 lastly, we have a strong regression analysis showing us that increased budget leads to increased profits.
-![profitvbudget regression]
+![profitvbudget regression](Images/profitvbudget regression.png)
 Now, let's analzye what accompanies higher budgets.  We can see that animation and adventure movies have large budgets-compared to Mystery and documentary movies.
-![budgetvgenre]
+![budgetvgenre](Images/budgetvgenre.png)
 Now, let's look at some information on the leading directors.  Maybe we can figure out of a specific director is a cash cow or not.
-![directorvprofit]
-![directorvbudget]
+![directorvprofit](Images/directorvprofit.png)
+![directorvbudget](https://github.com/byrdwcrawford/Phase-2-Project/blob/main/Images/directorvbudget.png)
 We see significant overlap here in the directors with the average biggest budget per movie and the directors with the highest profit per movie. For context, here are the 6 directors that appear in both categories:
 
 * Michael Bay
