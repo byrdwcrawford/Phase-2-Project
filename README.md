@@ -32,8 +32,8 @@ Loading the datasets as individual df's to clean and prepare columns for analysi
 ## Data Analysis
 We will analyze this data in a variety of ways to best understand it.  Charts, graphs, and regression analysis will help us interpret the data and project future trends.
 A correlation heatmap can show us the strength of correlations between different variables in our dataframe.  We can see links between budget, profit, gross, ROI.
-![Images/Correlation Heat Map.png]
-(https://github.com/byrdwcrawford/Phase-2-Project/blob/main/Images/Correlation%20Heat%20Map.png)
+![Correlation Heat Map]
+(Images/Correlation Heat Map.png)
 In comparing ROI and Budget, we can see that movies that had a larger budget typically had solid returns as well. 
 ![Genre ROI vs Budget]
 Now we can infer that higher budgets lead to more profit, which substantiates what we saw in the previous images. 
