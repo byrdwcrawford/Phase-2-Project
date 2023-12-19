@@ -33,13 +33,13 @@ Loading the datasets as individual df's to clean and prepare columns for analysi
 ## Data Analysis
 We will analyze this data in a variety of ways to best understand it.  Charts, graphs, and regression analysis will help us interpret the data and project future trends.
 A correlation heatmap can show us the strength of correlations between different variables in our dataframe.  We can see links between budget, profit, gross, ROI.
-![Correlation Heat Map](Images/Correlation Heat Map.png)
+![Correlation Heat Map](Images/CorrelationHeatMap.png)
 In comparing ROI and Budget, we can see that movies that had a larger budget typically had solid returns as well. 
-![Genre ROI vs Budget](Images/Genre ROI vs Budget.png)
+![Genre ROI vs Budget](Images/GenreROIvsBudget.png)
 Now we can infer that higher budgets lead to more profit, which substantiates what we saw in the previous images. 
-![Profit by Genre](Images/Profit by Genre.png)
+![Profit by Genre](Images/ProfitbyGenre.png)
 lastly, we have a strong regression analysis showing us that increased budget leads to increased profits.
-![profitvbudget regression](Images/profitvbudget regression.png)
+![profitvbudget regression](Images/profitvbudgetregression.png)
 Now, let's analzye what accompanies higher budgets.  We can see that animation and adventure movies have large budgets-compared to Mystery and documentary movies.
 ![budgetvgenre](Images/budgetvgenre.png)
 Now, let's look at some information on the leading directors.  Maybe we can figure out of a specific director is a cash cow or not.
