@@ -1,5 +1,6 @@
 # Phase-2-Project
 
+
 ## Business Understanding
 In this hypothetical scenario, our company has decided to expand into content creation, i.e. films.  We will analyze over 100 years of film data to determine indicators of success and offer this consultation to our company.
 
@@ -73,4 +74,38 @@ We see significant overlap here in the directors with the average biggest budget
 ## Next Steps.
 * In depth review on ratings to see which movies are actually the "best"
 * Compare international movies for worldwide success.
+
+## Repository Structure
+
+Repository/
+├── Data/
+│ ├── bom.movie_gross.csv
+│ ├── rt.movie_info.tsv
+│ ├── rt.reviews.tsv
+│ ├── tmdb.movies.csv
+│ └── tn.movie_budgets.csv
+│
+├── Images/
+│ ├── CorrelationHeatMap.png
+│ ├── GenreROIvsBudget.png
+│ ├── ProfitbyGenre.png
+│ ├── budgetvgenre.png
+│ ├── directorvbudget.png
+│ ├── directorvprofit.png
+│ └── profitvbudgetregression.png
+│
+├── PDF/
+│ ├── notebook.pdf
+│ ├── presentation.pdf
+│ ├── repo.pdf
+│ └── .gitignore
+│
+├── README.md
+└── notebook.ipynb
+
+## Author
+By: Will Byrd
+Email: byrdwcrawford@gmail.com
+Linkedin: https://www.linkedin.com/in/will-byrd-40323863/
+Wordpress: blog33497.wordpress.com
 
