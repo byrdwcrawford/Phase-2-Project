@@ -77,31 +77,29 @@ We see significant overlap here in the directors with the average biggest budget
 
 ## Repository Structure
 
-Repository/
-├── Data/
-│ ├── bom.movie_gross.csv
-│ ├── rt.movie_info.tsv
-│ ├── rt.reviews.tsv
-│ ├── tmdb.movies.csv
-│ └── tn.movie_budgets.csv
-│
-├── Images/
-│ ├── CorrelationHeatMap.png
-│ ├── GenreROIvsBudget.png
-│ ├── ProfitbyGenre.png
-│ ├── budgetvgenre.png
-│ ├── directorvbudget.png
-│ ├── directorvprofit.png
-│ └── profitvbudgetregression.png
-│
-├── PDF/
-│ ├── notebook.pdf
-│ ├── presentation.pdf
-│ ├── repo.pdf
-│ └── .gitignore
-│
-├── README.md
-└── notebook.ipynb
+- Repository/
+  - Data/
+    - bom.movie_gross.csv
+    - rt.movie_info.tsv
+    - rt.reviews.tsv
+    - tmdb.movies.csv
+    - tn.movie_budgets.csv
+  - Images/
+    - CorrelationHeatMap.png
+    - GenreROIvsBudget.png
+    - ProfitbyGenre.png
+    - budgetvgenre.png
+    - directorvbudget.png
+    - directorvprofit.png
+    - profitvbudgetregression.png
+  - PDF/
+    - notebook.pdf
+    - presentation.pdf
+    - repo.pdf
+    - .gitignore
+  - README.md
+  - notebook.ipynb
+
 
 ## Author
 By: Will Byrd
